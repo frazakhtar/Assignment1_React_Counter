@@ -1,9 +1,11 @@
 import './App.css';
+import CounterOne from './components/CounterOne';
 
 function App() {
   return (
     <div className="App">
-      <div>Assignment App 1</div>
+      <h1 className='appheading'>Assignment-2 Counter Application</h1>
+      <CounterOne />
     </div>
   );
 }
