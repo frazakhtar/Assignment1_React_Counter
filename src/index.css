@@ -9,6 +9,12 @@ body{
   font-family: 'Roboto', sans-serif;
   
 }
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+}
 .appheading{
   background-color: #BBDCE5;
   padding:10px;
